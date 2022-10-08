@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    position: fixed;  /*so that contents appear on top the image  */
+    background-color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+   margin-top: 0;
+   transition: background-color .3s;
+}
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.nav-links a:hover{
+    color: red
+}
+.nav-bar.active {
+    background-color: black;
+}
+.nav-bar.active .nav-links a{
+    color: white;
+}
+.container-top{
+    background-image: url('https://images.unsplash.com/photo-1588200908342-23b585c03e26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80');
+    height: 100vh;
+    background-size: cover;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    letter-spacing: 10px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+ .text{
+    margin: 50px 5%;
+    font-family: sans-serif;
+ }   
+ 
